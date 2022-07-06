@@ -98,6 +98,7 @@ button.message:hover{
     flex-wrap: wrap;
     align-items: baseline;
     gap: 62px;
+    margin-bottom: 44px;
 }
 .info {
     max-width: 200px;
@@ -108,4 +109,17 @@ button.message:hover{
     border: solid 2px #3882f6;
     border-radius: 15px;
     box-shadow: 2px 2px 30px #3882f6;
+}
+
+/* ----quote section---- */
+
+.quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 100px;
+    font: 36px light;
+    font-style: italic;
+    background-color: #e5e7eb;
 }
