@@ -123,3 +123,44 @@ button.message:hover{
     font-style: italic;
     background-color: #e5e7eb;
 }
+
+/* -----banner section---- */
+.banner-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+.banner{
+    background: white;
+    width: 680px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 62px;
+    color: #f9faf8;
+    background-color: #3882f6;
+}
+.bold{
+    font-weight: bold;
+}
+button.message.white:hover{
+    box-shadow: 0 0 3px #e5e7eb;
+}
+button.message.white{
+    border: 2px solid #e5e7eb;
+}
+
+/* -----footer----- */
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background-color: #1f2937;
+    color: #f9faf8;
+}
